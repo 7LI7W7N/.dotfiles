@@ -31,7 +31,8 @@
           "powerline_symbol": "\ue0b0",
           "properties": {
             "style": "full",
-            "template": " {{ .Path }} "
+            "template": " {{ .Path }} ",
+            "enable_hyperlink": true
           },
           "style": "powerline",
           "type": "path"
