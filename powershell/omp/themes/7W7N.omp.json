@@ -31,8 +31,7 @@
           "powerline_symbol": "\ue0b0",
           "properties": {
             "style": "full",
-            "template": " {{ .Path }} ",
-            "enable_hyperlink": true
+            "template": " {{ .Path }} "
           },
           "style": "powerline",
           "type": "path"
@@ -50,6 +49,7 @@
           "properties": {
             "branch_icon": "\ue725 ",
             "fetch_status": true,
+            "enable_hyperlink": true,
             "fetch_upstream_icon": true,
             "template": " {{ .HEAD }} {{ if .Working.Changed }}{{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#ef5350> \uf046 {{ .Staging.String }}</>{{ end }} "
           },
